@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Le Nostre Pizze";
+}
+
+<div class="container">
+    <div class="row pb-2">
+        <div class="col-2 text-center">Foto</div>
+        <div class="col text-center">Nome</div>
+        <div class="col text-center">Descrizione</div>
+        <div class="col text-center">Prezzo</div>
+    </div>
+
+    @for(int i = 0; i < 11; i++)
+    {
+        <div class="row justify-content-center align-items-center pb-2">
+            <div class="col-2">
+                <img src="https://picsum.photos/200/200">
+            </div>
+            <div class="col text-center">Diavola</div>
+            <div class="col text-center">Pizza con salame piccante</div>
+            <div class="col text-center">6.00$</div>
+        </div>
+    }
+
+</table>
+</div>
